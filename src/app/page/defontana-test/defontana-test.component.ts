@@ -26,7 +26,9 @@ export class DefontanaTestComponent implements OnInit, Group {
     .then((res)=>{
       this.loading=false
       this.data = res.data
+      alert("Get Realizado con exito a la pagina https://test.defontana.com/")
     }).catch((err)=>{
+      alert("Ocurrio un error por favor revise su conexion a internet")
       this.loading=false
       console.log(err)
     })
