@@ -15,6 +15,9 @@ ng update @angular/core @angular/cli .
 
 ng update .
 
+#NOTA
+
+Pude haber modificado el json obtenido para hacer mas comada la solución e implementar *ngFor Si, pero no me piden eso.
 
 # Defontana
 
