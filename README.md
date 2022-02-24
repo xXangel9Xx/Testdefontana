@@ -12,6 +12,7 @@
 #En caso de que salga algún error de compatibilidad prueba este comando .
 
 ng update @angular/core @angular/cli .
+
 ng update .
 
 
