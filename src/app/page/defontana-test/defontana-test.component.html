@@ -1,10 +1,183 @@
-<p>defontana-test works!</p>
 <div class="page">
-
     <div class="data" *ngIf="loading">
         <p class="text">cargando</p> 
     </div>
-    <!--<div class="data" *ngFor="let i of data">
-        <p>{{i}}</p>
-    </div>-->
+    <div class="contain-data">
+        <div class="contain" >
+                <div class="contain-archea" *ngIf="data">
+                   <p class="archea" id="archea" *ngIf="data[0].Parent == 2">
+                        {{data[0].Name}}
+                   </p>
+                    <p class="archea" id="archea-1" *ngIf="data[1].Parent == 2">
+                        {{data[1].Name}}
+                    </p>
+                    <p class="archea" id="archea-2" *ngIf="data[1].Parent == 2">
+                        {{data[2].Name}}
+                    </p>
+                </div>
+                
+                <div class="contain-bacteria" *ngIf="data">
+                    <p class="archea" id="bacteria-0" *ngIf="data[3].Parent == 3">
+                        {{data[3].Name}}
+                    </p>
+                    <p class="archea" id="bacteria-1" *ngIf="data[7].Parent == 3">
+                        {{data[7].Name}}
+                    </p>
+                    <p class="archea" id="bacteria-2" *ngIf="data[8].Parent == 3">
+                        {{data[8].Name}}
+                    </p>
+                    <p class="archea" id="bacteria-3" *ngIf="data[9].Parent == 3">
+                        {{data[9].Name}}
+                    </p>
+                </div>
+              
+                <div class="contain-eurkaryota" *ngIf="data">
+                    <p class="archea" id="eurkaryota-0" *ngIf="data[10].Parent == 1">
+                        {{data[10].Name}}
+                    </p>
+                    <p class="archea" id="eurkaryota-1" *ngIf="data[11].Parent == 1">
+                        {{data[11].Name}}
+                    </p>
+                    <p class="archea" id="eurkaryota-2" *ngIf="data[12].Parent == 1">
+                        {{data[12].Name}}
+                    </p> 
+
+                    <p class="archea" id="eurkaryota-3" *ngIf="data[13].Parent == 1">
+                        {{data[13].Name}}
+                    </p> 
+                </div>
+
+                
+                <div class="contain-parent-11" *ngIf="data">
+                    <p class="archea" id="parent-11-0" *ngIf="data[14].Parent == 11">
+                        {{data[14].Name}}
+                    </p>
+                    <p class="archea" id="parent-11-1" *ngIf="data[15].Parent == 11">
+                        {{data[15].Name}}
+                    </p>
+                </div>
+
+                <div class="contain-parent-16" *ngIf="data">
+                    <p class="archea" id="parent-16-0" *ngIf="data[16].Parent == 16">
+                        {{data[16].Name}}
+                    </p>
+                    <p class="archea" id="parent-16-1" *ngIf="data[17].Parent == 16">
+                        {{data[17].Name}}
+                    </p>
+                </div>
+
+                <div class="contain-parent-18" *ngIf="data">
+                    <p class="archea" id="parent-18-0" *ngIf="data[18].Parent == 18">
+                        {{data[18].Name}}
+                    </p>
+                    <p class="archea" id="parent-18-1" *ngIf="data[19].Parent == 18">
+                        {{data[19].Name}}
+                    </p>
+                </div>
+
+                <div class="contain-parent-12" *ngIf="data">
+                    <p class="archea" id="parent-12-0" *ngIf="data[23].Parent == 12">
+                        {{data[23].Name}}
+                    </p>
+                    <p class="archea" id="parent-12-1" *ngIf="data[24].Parent == 12">
+                        {{data[24].Name}}
+                    </p>
+                </div>
+
+                <div class="contain-parent-13" *ngIf="data">
+                    <p class="archea" id="parent-13-0" *ngIf="data[20].Parent == 13">
+                        {{data[20].Name}}
+                    </p>
+                    <p class="archea" id="parent-13-1" *ngIf="data[21].Parent == 13">
+                        {{data[21].Name}}
+                    </p>
+                    <p class="archea" id="parent-13-2" *ngIf="data[22].Parent == 13">
+                        {{data[22].Name}}
+                    </p>
+                </div>
+                
+                <div class="contain-parent-40" *ngIf="data">
+                    <p class="archea" id="parent-40-0" *ngIf="data[39].Parent == 40">
+                        {{data[39].Name}}
+                    </p>
+                    <p class="archea" id="parent-40-1" *ngIf="data[40].Parent == 40">
+                        {{data[40].Name}}
+                    </p>
+                    <p class="archea" id="parent-40-2" *ngIf="data[41].Parent == 40">
+                        {{data[41].Name}}
+                    </p>
+                </div>
+
+                <div class="contain-parent-39" *ngIf="data">
+                    <p class="archea" id="parent-39-0" *ngIf="data[42].Parent == 39">
+                        {{data[42].Name}}
+                    </p>
+                    <p class="archea" id="parent-39-1" *ngIf="data[43].Parent == 39">
+                        {{data[43].Name}}
+                    </p>
+                    <p class="archea" id="parent-39-2" *ngIf="data[44].Parent == 39">
+                        {{data[44].Name}}
+                    </p>
+                </div>
+ 
+                <div class="contain-parent-27" *ngIf="data">
+                    <p class="archea" id="parent-27-0" *ngIf="data[28].Parent == 27">
+                        {{data[28].Name}}
+                    </p>
+                    <p class="archea" id="parent-27-1" *ngIf="data[29].Parent == 27">
+                        {{data[29].Name}}
+                    </p>
+                    <p class="archea" id="parent-27-2" *ngIf="data[30].Parent == 27">
+                        {{data[30].Name}}
+                    </p>
+                    <p class="archea" id="parent-27-3" *ngIf="data[31].Parent == 27">
+                        {{data[31].Name}}
+                    </p>
+                </div>
+   
+                <div class="contain-parent-28" *ngIf="data">
+                    <p class="archea" id="parent-28-3" *ngIf="data[34].Parent == 28">
+                        {{data[34].Name}}
+                    </p>
+                    <p class="archea" id="parent-28-2" *ngIf="data[33].Parent == 28">
+                        {{data[33].Name}}
+                    </p>
+                    <p class="archea" id="parent-28-1" *ngIf="data[32].Parent == 28">
+                        {{data[32].Name}}
+                    </p>
+                </div>
+
+                <div class="contain-parent-26" *ngIf="data">
+                    <p class="archea" id="parent-26-3" *ngIf="data[25].Parent == 26">
+                        {{data[25].Name}}
+                    </p>
+                    <p class="archea" id="parent-26-2" *ngIf="data[26].Parent == 26">
+                        {{data[26].Name}}
+                    </p>
+                    <p class="archea" id="parent-26-1" *ngIf="data[27].Parent == 26">
+                        {{data[27].Name}}
+                    </p>
+                </div>
+
+                <div class="contain-parent-35" *ngIf="data">
+                    <p class="archea" id="parent-35-0" *ngIf="data[35].Parent == 35">
+                        {{data[35].Name}}
+                    </p>
+                    <p class="archea" id="parent-35-1" *ngIf="data[36].Parent == 35">
+                        {{data[36].Name}}
+                    </p>
+                </div>
+
+
+                <div class="contain-parent-38" *ngIf="data">
+                    <p class="archea" id="parent-38-0" *ngIf="data[38].Parent == 38">
+                        {{data[38].Name}}
+                    </p>
+                    <p class="archea" id="parent-38-1" *ngIf="data[37].Parent == 38">
+                        {{data[37].Name}}
+                    </p>
+                </div>
+        </div>
+    </div>
+
 </div>
