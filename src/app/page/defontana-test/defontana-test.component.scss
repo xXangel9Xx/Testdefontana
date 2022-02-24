@@ -1,0 +1,396 @@
+@media screen and (min-width:320px){
+    .data{
+        text-align: center;
+        font-size: xx-large;
+    }
+    .contain-data{
+        background-image: url("../../../assets/5.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 300px;
+        height: 215px;
+        margin: auto;
+    }
+    .contain-archea,#archea-1,.contain-bacteria,.contain-eurkaryota,.contain-parent-16,#parent-27-0{
+        float: left;
+        
+    }
+    .contain-archea,.contain-bacteria,.contain-parent-39,.contain-parent-11{
+        display: flex;
+    }
+    .archea{
+        font-size: 8px;
+    }
+    #archea-1,#archea-2,#bacteria-0,#bacteria-1,#bacteria-3,#parent-16-0,#parent-18-0
+    ,#parent-12-0, #parent-13-0, #parent-39-0,#parent-39-2,#parent-40-0,#parent-40-2
+    ,#parent-27-1,#parent-26-2{
+        margin: 0;
+    }
+    #archea-1{
+        left: 0px;
+        width: 0px;
+    }
+    #archea-2{
+        margin-top: 47px;
+        margin-left: 12px;
+        height: max-content;
+    }
+    .contain-bacteria,.contain-eurkaryota,.contain-parent-11,.contain-parent-16,.contain-parent-18
+    ,.contain-parent-12,.contain-parent-13,.contain-parent-39,.contain-parent-40,.contain-parent-27,.contain-parent-28
+    ,.contain-parent-26,.contain-parent-35,.contain-parent-38
+    {
+        position: relative;
+    }
+    .contain-bacteria{
+        left: -67px;
+        bottom: -176px;
+    }
+    #bacteria-0{
+        margin-top: 13px;
+        margin-left: -11px;
+    }
+    #bacteria-1{
+        margin-top: 12px;
+        margin-left: 8px;
+    }
+    #bacteria-2{
+        margin-top: 24px;
+    }
+   /* #bacteria-3{}*/
+    .contain-eurkaryota{
+        top: 66px;
+        left: -100px;
+    }
+    /*#eurkaryota-0{}*/
+    #eurkaryota-1{
+        margin-left: 9px;
+    }
+   /* #eurkaryota-2{}*/
+    #eurkaryota-3{
+        margin-left: -14px;
+    }
+    .contain-parent-11,.contain-parent-18,.contain-parent-12,.contain-parent-13,.contain-parent-40{
+        width: max-content;
+    }
+    .contain-parent-11{
+        left: -132px;
+        height: 64px;
+    }
+   /* #parent-11-0{}*/
+    #parent-11-1{
+        margin-top: 35px;
+        margin-left: 15px;
+    }
+    .contain-parent-16{
+        width: 69PX;
+        top: -58px;
+        left: -75px;
+        height: 52px;
+    }
+    /*#parent-16-0{}*/
+
+    #parent-16-1{
+        margin-top: 27px;
+        margin-left: 31px;
+    }
+    .contain-parent-18,.contain-parent-12,.contain-parent-13,.contain-parent-39,.contain-parent-40,.contain-parent-27
+    ,.contain-parent-28,.contain-parent-26,.contain-parent-35,.contain-parent-38{
+        float: right;
+    }
+
+    .contain-parent-18{
+        top: -121px;
+        left: -52px;
+    }
+    /*#parent-18-0{}*/
+    #parent-18-1{
+        margin-left: 27px;
+        margin-top: 1px;
+    }
+    .contain-parent-12{
+        top: -58px;
+        left: -78px;
+    }
+   /* #parent-12-0{}*/
+    #parent-12-1{
+        margin-top: 23px;
+    }
+    .contain-parent-13{
+        top: -7px;
+        left: -23px;
+    }
+   /* #parent-13-0{}*/
+    #parent-13-1{
+        margin-left: 24px;
+        margin-top: 3px;
+    }
+    #parent-13-2{
+        margin-top: 20px;
+    }
+
+    .contain-parent-39{
+        bottom: top;
+        left: 123px;
+        bottom: -32px;
+    }
+   /* #parent-39-0{}*/
+    #parent-39-1{
+        margin-top: 5px;
+        margin-left: 6px;
+    }
+    #parent-39-2{
+        margin-left: 24px;
+    }
+    .contain-parent-40{
+        bottom: -27px;
+        left: 194px;
+    }
+    /*#parent-40-0{}*/
+    #parent-40-1{
+        margin-top: 5px;
+        margin-left: 19px;
+    }
+    #parent-40-2{
+        margin-left: -24px;
+        margin-top: 24px;
+    }
+    .contain-parent-27{
+        width: 72px;
+        bottom: 149px;
+    }
+    #parent-27-0{
+        margin-left: -70px;
+        margin-top: 17px;
+    }
+    #parent-27-1{
+        margin-left: -12px;
+    }
+    #parent-27-2,#parent-38-0{
+        margin-bottom: 0;
+    }
+    #parent-27-2{
+        margin-left: 13px;
+    }
+    #parent-27-3{
+        margin-top: 0px;
+        margin-left: -1px;
+    }
+    .contain-parent-28{
+        width: 103px;
+        bottom: 115px;
+        left: 76px;
+    }
+    #parent-28-3{
+        margin-left: 53px;
+    }
+    #parent-28-1{
+        margin-top: 32px;
+        margin-left: -47px;
+    }
+    .contain-parent-26{
+        width: 68px;
+        bottom: 117px;
+        left: 96px;
+    }
+    #parent-26-3{
+        margin-top: 0;
+        margin-bottom: 2px;
+    }
+    #parent-26-2{
+        margin-left: 8px;
+    }
+    #parent-26-1{
+        margin-left: 9px;
+    }
+    .contain-parent-35{
+        width: 64px;
+        bottom: 143px;
+        left: 147px;
+    }
+    #parent-35-0{
+        margin-left: 31px;
+        margin-top: 14px;
+    }
+    #parent-35-1{
+        margin-top: -3px;
+    }
+    .contain-parent-38{
+        width: 64px;
+        bottom: 144px;
+        left: -54px;
+    }
+    #parent-38-0{
+        margin-left: 37px;
+    }
+    #parent-38-1{
+        margin-top: 0;
+    }
+}
+@media screen and (min-width:500px){
+    .contain-data{
+        background-image: url("../../../assets/500.png");
+        width: 500px;
+        height: 358px;
+    }
+    .archea{
+        font-size: 12px;
+    }
+    #archea-2{
+        margin-top: 82px;
+        margin-left: 27px;
+    }
+    .contain-bacteria{
+        left: -104px;
+        bottom: -299px;
+    }
+    .contain-eurkaryota{
+        top: 113px;
+        left: -140px;
+    }
+    #eurkaryota-3{
+        margin-left: -32px;
+    }
+    .contain-parent-11{
+        left: -193px;
+        height: 64px;
+    }
+    #parent-11-1{    
+        margin-top: 89px;
+        margin-left: -22px;
+    }
+    .contain-parent-16{
+        width: 99px;
+        top: -58px;
+        left: -93px;
+    }
+    #parent-16-1{
+        margin-top: 47px;
+        margin-left: 49px;
+    }
+    .contain-parent-18{
+        top: -118px;
+        left: -92px;
+    }
+    #parent-18-1{
+        margin-left: 59px;
+        margin-top: 4px;
+    }
+    .contain-parent-12{
+        top: -15px;
+        left: -134px;
+    }
+    #parent-12-1{
+        margin-left: 9px;
+        margin-top: 36px;
+    }
+    .contain-parent-13{
+        top: 66px;
+        left: -34px;
+    }
+    #parent-13-1{
+        margin-left: 49px;
+        margin-top: 2px;
+    }
+    #parent-13-2{
+        margin-left: -17px;
+        margin-top: -8px;
+    }
+    .contain-parent-40{
+        bottom: -86px;
+        left: 318px;
+    }
+    #parent-40-1{
+        margin-top: 46px;
+        margin-left: 32px;
+    }
+    #parent-40-2{
+        margin-left: -39px;
+        margin-top: 36px;
+    }
+    .contain-parent-39{
+        left: -101px;
+        bottom: -94px;
+    }
+    #parent-39-0{
+        margin-top: -8px;
+    }
+    #parent-39-1{
+        margin-top: 5px;
+        margin-left: 6px;
+    }
+    #parent-39-2{
+        margin-left: 24px;
+    }
+    .contain-parent-27{
+        left: 75px;
+        bottom: 182px;
+    }
+    #parent-27-0{
+        margin-left: -116px;
+        margin-top: 40px;
+    }
+    #parent-27-1{
+        margin-left: -12px;
+    }
+    #parent-27-2{
+        margin-left: 31px;
+    }
+    #parent-27-3{
+        margin-top: 6px;
+        margin-left: -1px;
+    }
+    .contain-parent-28{
+        width: 152px;
+        bottom: 115px;
+        left: 195px;
+    }
+    #parent-28-3{
+        margin-top: 8px;
+        margin-left: 85px;
+    }
+    #parent-28-2{
+        margin-top: 17px;
+    }
+    #parent-28-1{
+        margin-top: 53px;
+        margin-left: -82px;
+    }
+    .contain-parent-26{
+        bottom: 117px;
+        left: 189px;
+    }
+    #parent-26-3{
+        margin-top: -2px;
+        margin-bottom: 2px;
+    }
+    #parent-26-2{
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    #parent-26-1{
+        margin-left: -5px;
+        margin-top: 9px;
+    }
+    .contain-parent-35{
+        bottom: 78px;
+        left: 335px;    
+    }
+    #parent-35-0{
+        margin-left: 31px;
+        margin-top: 14px;
+    }
+    #parent-35-1{
+        margin-top: -3px;
+    }
+    .contain-parent-38{
+        width: 105px;
+        bottom: 83px;
+        left: 266px;
+    }
+    #parent-38-0{
+        margin-left: 60px;
+    }
+    #parent-38-1{
+        margin-top: 1px;
+    }
+}
