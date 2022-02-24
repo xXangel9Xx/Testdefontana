@@ -1,3 +1,21 @@
+#PASOS PARRA CORRER EL TEST.
+
+1)Git clone https://github.com/xXangel9Xx/Testdefontana.git .
+
+2)cd testdefontana .
+
+3)npm i.  
+
+4)ng s –o .
+
+
+#En caso de que salga algún error de compatibilidad prueba este comando .
+
+ng update @angular/core @angular/cli .
+
+ng update .
+
+
 # Defontana
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.0.
