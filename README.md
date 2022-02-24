@@ -2,7 +2,7 @@
 
 1)Git clone https://github.com/xXangel9Xx/Testdefontana.git .
 
-2)cd testddefontana .
+2)cd testdefontana .
 
 3)npm i.  
 
